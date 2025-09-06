@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+.hero img:hover {
+box-shadow:0 0 25px #f39c12;
+transform: scale(1.05);
+}
+.hero h1 {font-size:3rem; margin-bottom:10px;}
+.hero p {font-size:1.2rem; color:#555; max-width:600px;}
+section {padding:50px 20px; max-width:1000px; margin:auto;}
+section h2 {text-align:center; margin-bottom:20px; font-size:2rem; color:#333;}
+.cards {display:grid; grid-template-columns:repeat(auto-fit, minmax(250px, 1fr)); gap:20px;}
+.card {background:#fff; padding:20px; border-radius:10px; box-shadow:0 4px 6px rgba(0,0,0,0.1);}
+.gallery {display:grid; grid-template-columns:repeat(auto-fit, minmax(200px,1fr)); gap:10px;}
+.gallery img {width:100%; border-radius:10px;}
+form {display:flex; flex-direction:column; gap:10px;}
+input, textarea {padding:10px; border:1px solid #ccc; border-radius:5px;}
+button {padding:10px; border:none; border-radius:5px; background:#333; color:#fff; font-size:1rem; cursor:pointer;}
+button:hover {background:#f39c12;}
+footer {text-align:center; padding:20px; background:#333; color:#fff;}
+</style>
+</head>
+<body>
+
+
+<header>
+<nav>
+<div class="logo">Tanish Portfolio</div>
+<div>
+<a href="#about">About</a>
+<a href="#services">Skills</a>
+<a href="#projects">Projects</a>
+<a href="#contact">Contact</a>
+</div>
+</nav>
+</header>
+
+
+<section class="hero">
+<img src="spideyy.jpg" alt="Tanish Profile Photo">
+<h1>Hi, I’m Tanish</h1>
+<p>A curious learner & future innovator passionate about exploring new ideas, learning technologies, and expressing creativity.</p>
+</section>
+
+
+<section id="about">
+<h2>About Me</h2>
+<p>I’m passionate about exploring new ideas, learning technologies, and expressing creativity. This portfolio is my digital corner to share my journey and growth. I love blending technology with creativity, from coding to writing and public speaking.</p>
+</section>
+
+
+<section id="services">
+<h2>Skills</h2>
+<div class="cards">
+<div class="card"><h3>Learning Projects</h3><p>Showcasing experiments in coding, writing, and art.</p></div>
+<div class="card"><h3>Skills</h3><p>Web design, creative writing, public speaking.</p></div>
+<div class="card"><h3>Goals</h3><p>Becoming a tech-savvy leader with a creative vision.</p></div>
+</div>
+</section>
+
+
+<section id="projects">
+<h2>Projects</h2>
+<div class="gallery">
+<img src="https://via.placeholder.com/400" alt="Project 1">
+<img src="https://via.placeholder.com/400" alt="Project 2">
+<img src="https://via.placeholder.com/400" alt="Project 3">
+</div>
+</section>
+
+
+<section id="contact">
+<h2>Contact Me</h2>
+<form>
+<input type="text" placeholder="Your Name" required>
+<input type="email" placeholder="Your Email" required>
+<textarea placeholder="Your Message" rows="5" required></textarea>
+<button type="submit">Send Message</button>
+</form>
+</section>
+
+
+<footer>
+<p>&copy; 2025 Tanish. All Rights Reserved.</p>
+</footer>
+
+
+</body>
+</html>
